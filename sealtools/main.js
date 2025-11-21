@@ -1,6 +1,6 @@
 window.onload = function () {
     const pages = {
-        "ToolHTMLRenderer": "/tools/HTMLRenderer.html",
+        "ToolHTMLRenderer": "/sealtools/tools/HTMLRenderer.html",
     };
 
     // sidebar
@@ -14,7 +14,7 @@ window.onload = function () {
     // settings
     document.getElementById("SettingsOpenButton").onclick = function () {
         const tool = document.getElementById("Tool");
-        tool.src = "/settings.html";
+        tool.src = "/sealtools/settings.html";
     };
 
     function updateSettings() {
